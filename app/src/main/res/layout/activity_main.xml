@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark">
+
+        <!-- Coruscate LOGO -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="LOGO"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <!-- Present Day Date -->
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Date"
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Present Button -->
+        <Button
+            android:id="@+id/btn_present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/mybutton_green"
+            android:text="Present" />
+
+        <!-- Absent Button -->
+        <Button
+            android:id="@+id/btn_absent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/mybutton_red"
+            android:text="Absent" />
+
+        <!-- Check Attendance Button -->
+        <Button
+            android:id="@+id/btn_chk_att"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/mybutton_check"
+            android:padding="10dp"
+            android:text="Check Attendance" />
+
+    </LinearLayout>
+
+</LinearLayout>

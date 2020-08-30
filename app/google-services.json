@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62068061787",
+    "firebase_url": "https://coruscate-7a50c.firebaseio.com",
+    "project_id": "coruscate-7a50c",
+    "storage_bucket": "coruscate-7a50c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62068061787:android:fdd7ea0401ffb1c3c2317e",
+        "android_client_info": {
+          "package_name": "com.bhavyakoshiya.coruscate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62068061787-kpq4tkei2g21rdpp75vcmgsc7160d4iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3geyMLMh19vP9tRsOWlxc7agW4QAdsyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62068061787-kpq4tkei2g21rdpp75vcmgsc7160d4iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
